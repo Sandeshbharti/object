@@ -67,5 +67,43 @@ let o={
         }
     }
 }
-//element or info access by nexted dot notation (.)
+//element or info access by nexted dot notation (.),just like below example 
+// console.log(o.addredd.permanentadd.firstperadd)
+
+
+
+// ********** add two or more object 
+const objj1={
+    1 : "a",
+    2 : "b"
+}
+const objj2={
+    3 : "c",
+    4 : "d"
+}
+const objj3={
+    5 : "e",
+    6 : "f"
+}
+// const objj4=Object.assign({},objj1,objj2,objj3)
+// console.log (objj4)
+// const objj5={...objj1,...objj2,...objj3}
+// console.log(objj5)
+//both method work same but triple dot use most of time 
+
+
+// ******************get all key or value of object 
+
+// console.log (Object.keys(student))
+//************** get all key or value of object in each sigle array 
+console.log (Object.entries(student))
+
+
+
+
+
+
+
+
+
 
