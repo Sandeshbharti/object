@@ -96,7 +96,7 @@ const objj3={
 
 // console.log (Object.keys(student))
 //************** get all key or value of object in each sigle array 
-console.log (Object.entries(student))
+// console.log (Object.entries(student))
 
 
 
