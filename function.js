@@ -151,3 +151,17 @@ let newarrf=arrf.filter((val)=>{
     return val%5!==0
 })
 // console.log (newarrf)
+// *******
+// last method from apana college 
+// (3)- reduce method in js 
+
+let red2=[5,7,10,15,19,20,24,25,30]
+//not try to use if condition ,here use ternry oprator 
+let newred2 =red2.reduce((res,curr)=>{
+//    return  res>curr? res : curr 
+//    return  res+curr
+   return  res<curr? res :curr 
+})
+// console.log (newred2)
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//     finished from apana college 
