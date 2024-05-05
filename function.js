@@ -185,26 +185,65 @@ function user(sername="bharti"){
 //when it use in spread variable than it call spread oprator 
 let morer =function moreargu(...val){
     return val 
-}
-// console.log  (morer(100,200,300,400)//out =)[ 100, 200, 300, 400 ]
+}                                         //out =)[ 100, 200, 300, 400 ]
+// console.log  (morer(100,200,300,400)
 //give all argu in object 
 
 let morero =function morearguo(val1,val2,...val3){
     return val1,val2,val3 
-}
-// console.log(morero(10,20,30,40,50))//out =[ 30, 40, 50 ]
+}                                               //out =[ 30, 40, 50 ]       
+// console.log(morero(10,20,30,40,50))
 
-// passing an object as paramiter/argument in function
+//***** */ passing an object as paramiter/argument in function
 
 const obj8={
-    name:"sandesh"
+    name:"sandesh",
+    price:101,
 }
 
+function handleobj(anyobj ){
+    console.log(anyobj)
+}          
+ //handelobj(pass any obj)
+// handleobj(obj8.name)       //out = sandesh 
+// handleobj(obj8)            // out =log whole obj 
 
+//*** passing an array in function as argument/parameter 
 
+let arrr=[10,11,12,13]
+// console.log(typeof arrr)    // out=object 
+ 
+function handlearr(anyarr){
+    console.log(anyarr)
+}  
+// console.log(handlearr(arrr))
+// handlearr(arrr)          //out= [ 10, 11, 12, 13 ]
+// handlearr(arrr[0])       //out=10
 
+///////////////////////////////////////
+// global and local or block scope level 
 
+//Bahar wale scope ke variable uske andar wale scope me accessable 
+//hote hai lekin andar wale scope ke variable us scoope ke bahar 
+//accessable nahi hote hai 
+//chote bacche bado ka icecream kha sakate hai lekin bade log 
+//cohote baccho ka icecream nahi kha sakte hai 
 
+function one(){
+    console.log("sandeesh")
+    let name="ram"
+    function two(){
+        console.log ("bharti")
+        console.log (name)    //name acessable(parent scope se aa raha hai) 
+        let rollno=21
+    }
+    two()
+    // console.log(rollno)  //not accessable geting from childs scope  
+}
+// one()
+// console.log (name)   //function one is globles child so var not accessable 
 
-
+// kisi func ke undar func se koi kam karane ke liye  
+//under wale func ke sath bahar wale func ki bhi call 
+//karna padta hai 
 
