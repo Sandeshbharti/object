@@ -112,7 +112,7 @@
 // [work for each idxvalue,like for each ,give new array]
 
 // (2),arr.flter(callback)|| arr.filter((val)=>{return val%2===0})
-//on given condition it give a new array on base that condition
+// on given condition it give a new array on base that condition
 
 //(3)-arr.Reduce(calllback) || arr.reduce((res,curr)=>{give single value}) 
 // that method reduce array in a single value 
@@ -120,3 +120,34 @@
 //(4)-for Each (calllback) || for Each ((val,idx,arr){console.log(`${val}, ${idx},${arr}`)})
 //work for each element of array 
 
+
+let number6=[10,12,14,16,18]
+// console.log (typeof number6)    //object 
+//print the square of each ele (map method)
+// let newarr=number6.map((val)=>{
+//     console.log (val * val) 
+//     return val*val 
+     
+// })
+
+// if console in under method than object  
+// console.log (newarr)   //log as object ,working 
+// console.log (typeof newarr)
+ 
+
+let nums=[1,2,3,4]
+// console.log (typeof nums)    //typeof object 
+let nemser={
+    name : "sadnesh "
+}
+// console.log (typeof nemser)   //typeof object 
+
+//(2)- *********filter method (filter on given condition)
+
+let arrf=[10,12,45,60,45,70,80,98,75,44,60,100]
+let newarrf=arrf.filter((val)=>{
+    // console.log(val%5===0)
+    // return val%5===0
+    return val%5!==0
+})
+// console.log (newarrf)
