@@ -164,4 +164,47 @@ let newred2 =red2.reduce((res,curr)=>{
 })
 // console.log (newred2)
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-//     finished from apana college 
+//     finished from apana college and start with chai aur code 
+
+//function nameoffunc(para1,para2,paran){work}(parameter)
+//nameoffunc(argu1,argu2,argun)//invoke function(argument) 
+
+// parameter ka datatype fixed kar dena chahiye otherwise function give unxpected result 
+//like - addtwonums(2,"3") || mul("5",2) || anyfunc(2,null)
+
+//if not pass any argument in function has get a bydefalt argument
+//we can set it ,when pass argument than it override on bydefalt argu
+function user(sername="bharti"){
+    console.log(sername)
+}
+// user()                   //out = "bharti"
+// user("sandesh")          //out = "sandesh"
+// user()                   //out = "bharti"
+
+// if not know num of argument 1,2,3...n[use rest oprator (...argu)]
+//when it use in spread variable than it call spread oprator 
+let morer =function moreargu(...val){
+    return val 
+}
+// console.log  (morer(100,200,300,400)//out =)[ 100, 200, 300, 400 ]
+//give all argu in object 
+
+let morero =function morearguo(val1,val2,...val3){
+    return val1,val2,val3 
+}
+// console.log(morero(10,20,30,40,50))//out =[ 30, 40, 50 ]
+
+// passing an object as paramiter/argument in function
+
+const obj8={
+    name:"sandesh"
+}
+
+
+
+
+
+
+
+
+
