@@ -247,3 +247,16 @@ function one(){
 //under wale func ke sath bahar wale func ki bhi call 
 //karna padta hai 
 
+//////////////////////////////////////
+//     Arrow function  This keyword and IIFE 
+
+//let chai =()=>{},|| ()=>{}
+
+//this keyword means current context ,or that object/array where it is used 
+
+const user10={
+    red:10,
+    yellow:20
+}
+
+
