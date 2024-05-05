@@ -46,7 +46,7 @@
 
 //practice question - create a function that takes a string and 
 // return the count of vowels in the string ?
-
+//[for of loop used ,if satement]
 
 // let count =0;
 // function countfun(string){
@@ -69,20 +69,23 @@
 // countfun("aeiou");          //second time call karne per privious count  
 // countfun("sdtry");          //second wale main add ho jata hai
 
+// ********** for Each method in array **********
+
 // let sun=[10,20,30,40]                          //working exameple(1)
-// sun.forEach((val)=>{                     
+// sun.forEach((val)=>{                           //for Each method 
 // console.log (val)
 // })
 
 // sun=[10,20,30,40]
 // sun.forEach((val,idx,arr)=>{                     // example(2)
-//     console.log(`${val} ${idx} ${arr}`)
+//     console.log(`${val} ${idx} ${arr}`)           //for Each method
 //    })
 
 
 
 
-//question  cout vowel in string 
+//********* question  cout vowel in string (practice)
+
 // console.log (" s a n d e s h b h a r  t i ")
 // let total =0;
 // let strin ="mohan"
@@ -101,4 +104,19 @@
 //         }
 //         console.log (total)            
 
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+// some more array mehode in array 
+//(1)-map method ,(2)-filter method ,(3)-reduce method,(4)-for Each method  
+
+// (1), arr.map(callback) || arr.map((val)=>{do any work})
+// [work for each idxvalue,like for each ,give new array]
+
+// (2),arr.flter(callback)|| arr.filter((val)=>{return val%2===0})
+//on given condition it give a new array on base that condition
+
+//(3)-arr.Reduce(calllback) || arr.reduce((res,curr)=>{give single value}) 
+// that method reduce array in a single value 
+
+//(4)-for Each (calllback) || for Each ((val,idx,arr){console.log(`${val}, ${idx},${arr}`)})
+//work for each element of array 
 
