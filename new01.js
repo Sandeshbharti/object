@@ -198,5 +198,113 @@ let a =-5;
 
 // function in js 
 
+// function addNums(x,y){
+//   console.log(x+y )
+// //   return x+y ;
+
+// }
+// addNums(2,3)
+// addNums(3,3)
+
+const aarr=(a,b)=>{
+   console.log (a+b)
+//    return b+a // kisi fuction me koi value 
+//return nahi ho rahi hai only value log ho rahi hai 
+}
+// aarr(2,2)
+
+function login (username="ram"){
+    if (username===undefined|| username!== username){
+        console .log ("please enter a valid username ")
+    }else{
+        console.log (`${username} is jsut  login now `)
+    }
+}
+// login("sandesh")
+// login("")
+// both output is same => username is just login nowe 
+// login ()   //out=> please enter a valid name 
+// login ()  // if connot provide username defalt name will taken 
+             //if we provide para/username than it will override default 
+
+//%%% whin parameter is not countable 
+// function adds (x,y,...a){
+//  console .log (x,y,...a)
+// }   
+// adds(1,2,3) 
+// adds(1,2,3,4,5) 
+// adds(1,2,3,9,8,7,6,5,4,3,2,1)
+
+// kisi object ko function se handdle karna 
+
+const myobj={
+    name:"ramji",
+    class:10,
+    rollno:21
+}
+function handleobj(anyobj){
+   console.log (`useername is ${ anyobj.name} and class is ${anyobj.class} ,and his roll no is ${anyobj.rollno}`)
+}
+// handleobj(myobj)
+const myobj2={
+    name:"laxman ji ",
+    class:11,
+    rollno:22
+}
+// handleobj(myobj2)
+const myobj3={
+    name:"mata sita ji ",
+    class:12,
+    rollno:23
+}
+// handleobj(myobj3)
+
+// handling arary in js by fuction ????????????
+// let ara =[10,11,12,13,14,15,16,17,18,19,20]
+// handlearr (ara)  // normal fucton can call any where before fuction or after fuction 
+// function handlearr(anyarr){
+//    console.log (`at index 0 =>${anyarr[0]}and index 2=>${anyarr[2]}`)
+// }
+// // handlearr (ara)
+// let ne=[110,210,310,140,115]
+// handlearr(ne)
+
+// how work nexted scope 
+//under wale scope me bahar wale scope ke variable accessable hote hai 
+//but under wale kisi bhi bahar wale scope me kisi bhi under ke scope ke 
+//variable accessable nahi hote hai 
+
+// this keyword in jawascript 
+//this - refers current context ,like its own fuction/object   ko refer karata hai 
+
+// const objrr={
+//     ame:100,
+//     ronll:21,
+//     function (){
+//         console.log(`this ${this.ame} is best number  `)
+
+//     }
+// }
+// console.log (objrr.function())
+
+// Arrow function is start 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
