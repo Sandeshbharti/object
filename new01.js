@@ -287,7 +287,49 @@ const myobj3={
 // }
 // console.log (objrr.function())
 
-// Arrow function is start 
+// IIFE - immideatelly invoked fuction exicution [(function(){});]use comma is imp 
+//  let x=2;
+
+// let y=3;
+// (function add(x,y){
+//     return x+y 
+// });
+// console.log(add(2,3))
+//                                   not support properly on git app 
+
+// how to declare symbole and use it in a object 
+
+// const mysym= Symbol("sum")
+// const mysym1= Symbol("sum")
+// console.log (mysym===mysym1)
+
+//use symbole in object             //Symbole is also not support 
+// const user2={
+//     name:100,
+//     class:[200],
+//     rollno:21
+// }
+// console.log (user2.class)
+// console.log (typeof user2.class)     //object data type 
+
+
+// finished before fineshed promise in js with chai aur code //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
