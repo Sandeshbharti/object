@@ -26,14 +26,103 @@ let x=3   //x=3+5=8
 // }else {
 //     console .log (`that num is not greater than 10`)
 // }
-let a=15
-if (a<5){
-    console.log ("do any work for condi1")
-}else if (a>100 ){
-    console.log ("do any work for condi2")
-}else if (a>20 ){
-    console.log ("do any work for condi3")
-}else {console.log ("not match any condition  last condi ")}
+// let a=1000
+// if (a<5){
+//     console.log ("do any work for condi1")
+// }else if (a<100 ){
+//     console.log ("do any work for condi2")
+// }else if (a<200 ){
+//     console.log ("do any work for condi3")
+// }else {console.log ("not match any condition  last condi ")}
+
+
+//  Ternary Oprator in js //conditon ?? "true exicute ": false exicute ;
+
+
+//******************************************************************************************* */
+//           lecture loop and string in jawascript 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//********************************************************************************************** */
+//                        String in jawaScript 
+//****************************************************************************************** */
+let str ="SANdesh "
+let str2="BHarti"
+// console.log (str.charAt(0))
+// console.log (str.length)
+// console.log (str.toUpperCase())
+// console.log (str.toLowerCase());
+
+let str3="  kumar   "
+// console.log (str3)
+// console.log (str3.trim())
+
+// console.log (str.concat(str2,str3))
+
+let str4="aabbaaccddbb" 
+// console.log(str4.replace("bb","xx"))
+// console.log(str4.replaceAll ("bb","xx"))
+// console.log (str4.charAt(0))
+// console.log (str4.charAt(1))
+// console.log (str4.charAt(2))
+// console.log(str4.slice(2))
+
+// console.log(...str,...str2,...str3)
 
 
 
